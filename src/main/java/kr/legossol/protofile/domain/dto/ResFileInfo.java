@@ -38,5 +38,6 @@ public class ResFileInfo {
                     .extension(fIleDto.getExtension())
                     .build()
             ));
+        return resFileInfos;
     }
 }
