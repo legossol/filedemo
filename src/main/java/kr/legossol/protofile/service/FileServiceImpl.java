@@ -33,7 +33,7 @@ public class FileServiceImpl implements FileService{
             e.printStackTrace();
         }
         if(files.length == 0 )throw new FileRequestFileNotException("File Not Exception");
-
+        log.info("테스트디벨롭");
         log.info("test commit testpush");
         FIleDto fileInstance = FIleDto.getInstance();
         fileInstance.setCategory(fileInfo.getCategory());
