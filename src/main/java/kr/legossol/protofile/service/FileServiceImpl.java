@@ -34,7 +34,7 @@ public class FileServiceImpl implements FileService{
         }
         if(files.length == 0 )throw new FileRequestFileNotException("File Not Exception");
 
-
+        log.info("test commit testpush");
         FIleDto fileInstance = FIleDto.getInstance();
         fileInstance.setCategory(fileInfo.getCategory());
         fileInstance.setEnrolledUserId(fileInfo.getRequestUserId());
